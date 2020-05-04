@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstap CSS -->
+    <link rel="stylesheet" href="bootsrap\4.4.1\css\bootstrap.min.css">
+
+    <title>MFL :: Shipment Overview - Export</title>
+</head>
+<body>
+
+<!-- Shipment Overview Import -->
+<div class="container-fluid">
+    <!-- Content here -->
+    <h1>Create New Sea Shipment</h1>
+    <form>
+        <div class="form-group row">
+            <label for="fileNo" class="col-sm-1 col-form-label">File No:</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" id="fileNo" placeholder="File Number">
+            </div>
+            <label for="carrier" class="col-sm-1 col-form-label">Carrier:</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" id="carrier" placeholder="Carrier">
+            </div>
+            <label for="stuffing" class="col-sm-1 col-form-label">Stuffing:</label>
+            <div class="col-sm-3">
+                <input type="date" class="form-control" id="stuffing">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Shipper">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Consignee">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="House Bill of Lading">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Master Bill of Lading">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Port Of Loading">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Port of Discharge">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-1">
+                <input type="text" class="form-control" placeholder="CNTR#">
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" placeholder="C SIZE">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Quantity">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Package Type">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Container No">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Seal No">
+            </div>
+            <div class="col-sm-2">
+                <button class="btn-success">add container</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Vessel Name">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="Voyage #">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="POL">
+            </div>
+            <div class="col-sm-2">
+                <input type="date" class="form-control" placeholder="Actual Loading">
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" placeholder="POD">
+            </div>
+            <div class="col-sm-2">
+                <input type="date" class="form-control" placeholder="Arrival Date">
+            </div>
+            <div class="col-sm-2">
+                <button class="btn-success">add new vessel</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="bootsrap\4.4.1\js\jquery-3.4.1.slim.min.js"></script>
+<!-- <script src="bootsrap\4.4.1\js\popper.min.js" ></script> -->
+<script src="bootsrap\4.4.1\js\bootstrap.min.js" ></script>
+</body>
+</html>
